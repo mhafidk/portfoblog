@@ -55,3 +55,27 @@
 		</div>
 	</div>
 </div>
+<div class="-mx-4 my-3 h-px bg-neutral-400"></div>
+<div class="-mx-4 bg-neutral-800 px-4 py-8 text-neutral-50">
+	<div class="mx-auto max-w-xl">
+		<h2 class="text-xl font-bold">A Little About Me</h2>
+		<div class="my-4">
+			<p>
+				Currently, I'm working as a backend engineer at <a
+					href="https://www.qontak.com"
+					class="border-b text-lime-500 hover:text-lime-400">Qontak</a
+				>. I am focused on backend technology, where I design efficient and scalable systems. My
+				expertise includes building robust APIs, crafting optimized queries, and writing
+				high-performance, well-tested, maintainable code.
+			</p>
+			<p class="mt-3">
+				Outside of development, I’m an amateur photographer and a writer. I enjoy blending
+				creativity and logic in both tech and life.
+			</p>
+		</div>
+		<div class="">
+			<a href="/about" class="border-b text-lime-500 hover:text-lime-400">More about me</a>
+		</div>
+	</div>
+</div>
+<div class="-mx-4 my-3 h-px bg-neutral-400"></div>
