@@ -56,7 +56,7 @@
 	</div>
 </div>
 <div class="-mx-4 my-3 h-px bg-neutral-400"></div>
-<div class="-mx-4 bg-neutral-800 px-4 py-8 text-neutral-50">
+<div class="-mx-4 bg-neutral-800 px-4 py-24 text-neutral-50">
 	<div class="mx-auto max-w-xl">
 		<h2 class="text-xl font-bold">A Little About Me</h2>
 		<div class="my-4">
@@ -79,3 +79,60 @@
 	</div>
 </div>
 <div class="-mx-4 my-3 h-px bg-neutral-400"></div>
+<div class="my-24">
+	<div class="mx-auto max-w-xl">
+		<h2 class="text-xl font-bold">Experiences & Tools</h2>
+		<div class="mt-4">
+			<ol class="border-s border-neutral-400">
+				<li>
+					<div class="flex-start flex items-center pt-3">
+						<div class="-ms-[5px] me-3 h-[9px] w-[9px] rounded-full bg-lime-600"></div>
+						<p class="font-medium">2020 - Present</p>
+					</div>
+					<div class="ms-4 mt-1 mb-6">
+						<h4 class="mb-1.5 text-lg font-semibold text-lime-600">
+							Backend Engineer, <a
+								href="https://www.qontak.com"
+								target="_blank"
+								rel="noreferrer"
+								class="border-b border-lime-600 text-lime-600 hover:border-lime-700 hover:text-lime-700"
+								>Qontak</a
+							>
+						</h4>
+						<div class="mb-3">
+							<ul class="list-outside list-disc pl-8">
+								<li>
+									Optimized code performance, resulting in a 50% speed increase, by addressing N+1
+									queries, refining query execution, and strategically employing caching.
+								</li>
+								<li>
+									Drove technical feature implementations, managing the development process from RFC
+									conception to final deployment, collaborating closely with FE, QA, Design, and
+									Product teams.
+								</li>
+								<li>
+									Increased test coverage using RSpec, ensuring high code quality and reducing
+									production bugs.
+								</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+			</ol>
+		</div>
+		<div class="mt-16">
+			<p align="center">
+				<img
+					class="block md:hidden"
+					alt="skills"
+					src="https://skillicons.dev/icons?i=git,bitbucket,docker,cpp,css,elasticsearch,git,go,html,js,opencv,postgres,rails,redis,ruby,svelte,tailwind,ubuntu,py&perline=7"
+				/>
+				<img
+					class="hidden md:block"
+					alt="skills"
+					src="https://skillicons.dev/icons?i=git,bitbucket,docker,cpp,css,elasticsearch,git,go,html,js,opencv,postgres,rails,redis,ruby,svelte,tailwind,ubuntu,py"
+				/>
+			</p>
+		</div>
+	</div>
+</div>
