@@ -14,15 +14,15 @@
 		<p>go</p>
 	</div>
 </div>
-<div class="flex justify-between">
+<div class="-mx-4 flex justify-between md:mx-0">
 	<div class="flex gap-2">
-		<div class="h-0.5 w-5 bg-neutral-800"></div>
+		<div class="h-0.5 w-4 bg-neutral-800"></div>
 		<div class="h-0.5 w-2 bg-neutral-600"></div>
-		<div class="h-0.5 w-1 bg-neutral-400"></div>
+		<div class="h-0.5 w-0.5 bg-neutral-400"></div>
 	</div>
 	<div class="flex gap-2">
-		<div class="h-0.5 w-1 bg-neutral-400"></div>
+		<div class="h-0.5 w-0.5 bg-neutral-400"></div>
 		<div class="h-0.5 w-2 bg-neutral-600"></div>
-		<div class="h-0.5 w-5 bg-neutral-800"></div>
+		<div class="h-0.5 w-4 bg-neutral-800"></div>
 	</div>
 </div>

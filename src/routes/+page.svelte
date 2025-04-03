@@ -81,19 +81,7 @@
 		</div>
 	</div>
 </div>
-<div class="-mx-4 flex justify-between">
-	<div class="flex gap-2">
-		<div class="h-0.5 w-6 bg-neutral-800"></div>
-		<div class="h-0.5 w-3 bg-neutral-600"></div>
-		<div class="h-0.5 w-1 bg-neutral-400"></div>
-	</div>
-	<div class="flex gap-2">
-		<div class="h-0.5 w-1 bg-neutral-400"></div>
-		<div class="h-0.5 w-3 bg-neutral-600"></div>
-		<div class="h-0.5 w-6 bg-neutral-800"></div>
-	</div>
-</div>
-<div class="my-24">
+<div class="py-24">
 	<div class="mx-auto max-w-xl">
 		<h2 class="text-xl font-bold">Experiences & Tools</h2>
 		<div class="mt-4">
@@ -150,19 +138,7 @@
 		</div>
 	</div>
 </div>
-<div class="-mx-4 flex justify-between">
-	<div class="flex gap-2">
-		<div class="h-0.5 w-6 bg-neutral-800"></div>
-		<div class="h-0.5 w-3 bg-neutral-600"></div>
-		<div class="h-0.5 w-1 bg-neutral-400"></div>
-	</div>
-	<div class="flex gap-2">
-		<div class="h-0.5 w-1 bg-neutral-400"></div>
-		<div class="h-0.5 w-3 bg-neutral-600"></div>
-		<div class="h-0.5 w-6 bg-neutral-800"></div>
-	</div>
-</div>
-<div class="my-24">
+<div class="py-24">
 	<div class="mx-auto max-w-xl">
 		<h2 class="text-xl font-bold">Latest Blog Posts</h2>
 		<div class="mt-4 grid grid-cols-1 gap-8">
