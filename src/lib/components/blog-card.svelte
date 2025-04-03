@@ -1,17 +1,18 @@
+<script>
+	export let post;
+</script>
+
 <div class="">
-	<a href="/blog/test" class="text-lg font-bold text-lime-600 hover:text-lime-700">Post Title</a>
-	<p class="py-2 text-sm text-neutral-600">April 3, 2025</p>
-	<p class="line-clamp-4">
-		Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora exercitationem alias,
-		similique voluptatibus ullam minus nobis odio id quasi suscipit, inventore ea iure commodi enim
-		eum a in illo beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ad
-		aliquam rem reprehenderit quos amet! Aspernatur voluptas fugit provident incidunt quis? Maxime
-		maiores dolorum neque iusto vel a laboriosam doloremque.
+	<a href={`/blog/${post.slug}`} class="text-lg font-bold text-lime-600 hover:text-lime-700"
+		>{post.title}</a
+	>
+	<p class="line-clamp-4 pt-2">
+		{post.description}
 	</p>
-	<div class="flex gap-3 pt-3 font-mono text-sm text-violet-600">
-		<p>general</p>
-		<p>programming</p>
-		<p>go</p>
+	<div class="flex gap-3 pt-3 font-mono text-xs text-violet-600">
+		{#each post.tags as tag}
+			<p>{tag}</p>
+		{/each}
 	</div>
 </div>
 <div class="-mx-4 flex justify-between md:mx-0">

@@ -1,5 +1,8 @@
 <script>
 	import BlogCard from '$lib/components/blog-card.svelte';
+
+	export let data;
+	let posts = data.posts;
 </script>
 
 <svelte:head>
@@ -142,8 +145,9 @@
 	<div class="mx-auto max-w-xl">
 		<h2 class="text-xl font-bold">Latest Blog Posts</h2>
 		<div class="mt-4 grid grid-cols-1 gap-8">
-			<BlogCard />
-			<BlogCard />
+			{#each posts as post}
+				<BlogCard {post} />
+			{/each}
 		</div>
 		<div class="mt-8">
 			<a href="/about" class="border-b text-lime-600 hover:text-lime-700">More posts</a>
