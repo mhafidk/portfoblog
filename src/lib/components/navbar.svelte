@@ -9,7 +9,7 @@
 			<li><a href="/" class="hover:text-lime-600">Home</a></li>
 			<li><a href="/about" class="hover:text-lime-600">About</a></li>
 			<li><a href="/blog" class="hover:text-lime-600">Blog</a></li>
-			<li><a href="/#contact" class="hover:text-lime-600">Contact</a></li>
+			<li><a href="/" class="hover:text-lime-600">Contact</a></li>
 		</ul>
 	</nav>
 </header>
