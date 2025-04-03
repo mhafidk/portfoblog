@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>About</title>
+</svelte:head>
+
 <div class="mx-auto mt-8 max-w-xl">
 	<h2 class="text-2xl font-bold">About</h2>
 	<div class="mt-8">
