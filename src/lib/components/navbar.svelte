@@ -1,6 +1,6 @@
 <header>
 	<div class="border-b border-gray-200 py-6 text-center">
-		<a href="/" class="text-2xl font-light hover:text-lime-600"
+		<a href="/" class="text-xl font-light hover:text-lime-600 md:text-2xl"
 			>Muhammad <span class="font-bold">Hafid</span> Khoirul</a
 		>
 	</div>

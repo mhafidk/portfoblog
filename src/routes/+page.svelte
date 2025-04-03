@@ -1,3 +1,7 @@
+<script>
+	import BlogCard from '$lib/components/blog-card.svelte';
+</script>
+
 <svelte:head>
 	<title>Muhammad Hafid Khoirul</title>
 </svelte:head>
@@ -55,15 +59,14 @@
 		</div>
 	</div>
 </div>
-<div class="-mx-4 my-3 h-px bg-neutral-400"></div>
-<div class="-mx-4 bg-neutral-800 px-4 py-24 text-neutral-50">
+<div class="-mx-4 px-4 py-24">
 	<div class="mx-auto max-w-xl">
 		<h2 class="text-xl font-bold">A Little About Me</h2>
 		<div class="my-4">
 			<p>
 				Currently, I'm working as a backend engineer at <a
 					href="https://www.qontak.com"
-					class="border-b text-lime-500 hover:text-lime-400">Qontak</a
+					class="border-b text-lime-600 hover:text-lime-700">Qontak</a
 				>. I am focused on backend technology, where I design efficient and scalable systems. My
 				expertise includes building robust APIs, crafting optimized queries, and writing
 				high-performance, well-tested, maintainable code.
@@ -74,11 +77,22 @@
 			</p>
 		</div>
 		<div class="">
-			<a href="/about" class="border-b text-lime-500 hover:text-lime-400">More about me</a>
+			<a href="/about" class="border-b text-lime-600 hover:text-lime-700">More about me</a>
 		</div>
 	</div>
 </div>
-<div class="-mx-4 my-3 h-px bg-neutral-400"></div>
+<div class="-mx-4 flex justify-between">
+	<div class="flex gap-2">
+		<div class="h-0.5 w-6 bg-neutral-800"></div>
+		<div class="h-0.5 w-3 bg-neutral-600"></div>
+		<div class="h-0.5 w-1 bg-neutral-400"></div>
+	</div>
+	<div class="flex gap-2">
+		<div class="h-0.5 w-1 bg-neutral-400"></div>
+		<div class="h-0.5 w-3 bg-neutral-600"></div>
+		<div class="h-0.5 w-6 bg-neutral-800"></div>
+	</div>
+</div>
 <div class="my-24">
 	<div class="mx-auto max-w-xl">
 		<h2 class="text-xl font-bold">Experiences & Tools</h2>
@@ -133,6 +147,29 @@
 					src="https://skillicons.dev/icons?i=git,bitbucket,docker,cpp,css,elasticsearch,git,go,html,js,opencv,postgres,rails,redis,ruby,svelte,tailwind,ubuntu,py"
 				/>
 			</p>
+		</div>
+	</div>
+</div>
+<div class="-mx-4 flex justify-between">
+	<div class="flex gap-2">
+		<div class="h-0.5 w-6 bg-neutral-800"></div>
+		<div class="h-0.5 w-3 bg-neutral-600"></div>
+		<div class="h-0.5 w-1 bg-neutral-400"></div>
+	</div>
+	<div class="flex gap-2">
+		<div class="h-0.5 w-1 bg-neutral-400"></div>
+		<div class="h-0.5 w-3 bg-neutral-600"></div>
+		<div class="h-0.5 w-6 bg-neutral-800"></div>
+	</div>
+</div>
+<div class="my-24">
+	<div class="mx-auto max-w-xl">
+		<h2 class="text-xl font-bold">Latest Blog Posts</h2>
+		<div class="mt-4 grid grid-cols-1 gap-8">
+			<BlogCard />
+		</div>
+		<div class="mt-8">
+			<a href="/about" class="border-b text-lime-600 hover:text-lime-700">More posts</a>
 		</div>
 	</div>
 </div>
