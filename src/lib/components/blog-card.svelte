@@ -1,4 +1,4 @@
-<div class="border-l-2 pl-4">
+<div class="">
 	<a href="/blog/test" class="text-lg font-bold text-lime-600 hover:text-lime-700">Post Title</a>
 	<p class="py-2 text-sm text-neutral-600">April 3, 2025</p>
 	<p class="line-clamp-4">
@@ -12,5 +12,17 @@
 		<p>general</p>
 		<p>programming</p>
 		<p>go</p>
+	</div>
+</div>
+<div class="flex justify-between">
+	<div class="flex gap-2">
+		<div class="h-0.5 w-5 bg-neutral-800"></div>
+		<div class="h-0.5 w-2 bg-neutral-600"></div>
+		<div class="h-0.5 w-1 bg-neutral-400"></div>
+	</div>
+	<div class="flex gap-2">
+		<div class="h-0.5 w-1 bg-neutral-400"></div>
+		<div class="h-0.5 w-2 bg-neutral-600"></div>
+		<div class="h-0.5 w-5 bg-neutral-800"></div>
 	</div>
 </div>
