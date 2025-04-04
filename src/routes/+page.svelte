@@ -150,7 +150,7 @@
 			{/each}
 		</div>
 		<div class="mt-8">
-			<a href="/about" class="border-b text-lime-600 hover:text-lime-700">More posts</a>
+			<a href="/blog" class="border-b text-lime-600 hover:text-lime-700">More posts</a>
 		</div>
 	</div>
 </div>
