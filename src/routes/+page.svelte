@@ -123,6 +123,41 @@
 						</div>
 					</div>
 				</li>
+				<li>
+					<div class="flex-start flex items-center pt-3">
+						<div class="-ms-[5px] me-3 h-[9px] w-[9px] rounded-full bg-lime-600"></div>
+						<p class="font-medium">2016 - 2020</p>
+					</div>
+					<div class="ms-4 mt-1 mb-6">
+						<h4 class="mb-1.5 text-lg font-semibold text-lime-600">
+							Computer Engineering, <a
+								href="https://www.ub.ac.id"
+								target="_blank"
+								rel="noreferrer"
+								class="border-b border-lime-600 text-lime-600 hover:border-lime-700 hover:text-lime-700"
+								>Brawijaya University</a
+							>
+						</h4>
+						<div class="mb-3">
+							<ul class="list-outside list-disc pl-8">
+								<li>
+									Achieved academic distinction with a cumulative GPA of 3.86, reflecting consistent
+									high performance and dedication.
+								</li>
+								<li>
+									Fueled my passion for technology by joining the Robotics Club, gaining hands-on
+									experience in robotics, programming, and real-world problem solving, with a focus
+									on robotic vision systems, including image detection and recognition.
+								</li>
+								<li>
+									Engaged in numerous robotics competitions, securing awards in several, forging
+									meaningful connections, and enriching my technical and collaborative skills
+									through real-world challenges.
+								</li>
+							</ul>
+						</div>
+					</div>
+				</li>
 			</ol>
 		</div>
 		<div class="mt-16">
